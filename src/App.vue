@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div class="container">
+  <app-Header></app-Header>
+
+          <!--<h1 v-highlight="'red'">Routing</h1>
+          <p >Hello World</p>
+          <h3>Local Directive</h3>
+          <p>{{text | toUpperCase | to-lowercase}}</p> -->
+          
+  <router-view></router-view>
+  <app-Footer></app-Footer>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+/* eslint-disable */
+    import Header from './components/Header.vue';
+    import Footer from './components/Footer.vue';
+    export default {
+        data(){
+            return{
+                text:'Hello World'
+            }
+        },filters:{
+            toUpperCase(value){
+                return value.toUpperCase();
+            }
+        },
+        components:{
+            appHeader:Header,
+            appFooter:Footer
+        },directives:{
+            'local-hightlight':{
+                bind(el, binding, vnode){
+                el.style.color='blue';
+            }
+        }
+    }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import '../src/assets/style.css';
 </style>
