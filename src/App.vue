@@ -23,7 +23,7 @@
         data(){
             return{
                 text:'Hello World',
-                isAdmin: false
+                isAdmin: true
             }
         },filters:{
             toUpperCase(value){
