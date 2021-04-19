@@ -1,25 +1,29 @@
 <template>
-<div class="container">
-  <app-Header></app-Header>
+    <div>
+        <app-Header-Admin v-if="isAdmin"></app-Header-Admin>
+        <app-Header v-else></app-Header>
 
-          <!--<h1 v-highlight="'red'">Routing</h1>
-          <p >Hello World</p>
-          <h3>Local Directive</h3>
-          <p>{{text | toUpperCase | to-lowercase}}</p> -->
-          
-  <router-view></router-view>
-  <app-Footer></app-Footer>
-</div>
+                <!--<h1 v-highlight="'red'">Routing</h1>
+                <p >Hello World</p>
+                <h3>Local Directive</h3>
+                <p>{{text | toUpperCase | to-lowercase}}</p> -->
+                
+        <router-view></router-view>
+        <app-Footer></app-Footer>
+    </div>
 </template>
 
 <script>
 /* eslint-disable */
+    import Admin from './components/admin/Admin.vue';
+    import HeaderAdmin from './components/admin/Header.vue';
     import Header from './components/Header.vue';
-    import Footer from './components/Footer.vue';
+   
     export default {
         data(){
             return{
-                text:'Hello World'
+                text:'Hello World',
+                isAdmin: false
             }
         },filters:{
             toUpperCase(value){
@@ -27,8 +31,10 @@
             }
         },
         components:{
+            appAdmin:Admin,
+            appHeaderAdmin:HeaderAdmin,
             appHeader:Header,
-            appFooter:Footer
+           
         },directives:{
             'local-hightlight':{
                 bind(el, binding, vnode){

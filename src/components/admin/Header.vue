@@ -9,27 +9,28 @@
                 <div class="collapse navbar-collapse" id="main-navigation">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/test" >
-                    <a>Home</a>
+                    <router-link class="nav-link" to="/" >
+                    <a>Admin</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
                     <router-link class="nav-link" to="/" >
-                    <a>Home</a>
+                    <a>Admin</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
                     <router-link class="nav-link" to="/" >
-                    <a>Home</a>
+                    <a>Admin</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
                     <router-link class="nav-link" to="/" >
-                    <a>Home</a>
+                    <a>Admin</a>
                     </router-link>
                 </li>
                 
                 </ul>
+                
                 </div>
             </div>
         </nav>
