@@ -9,7 +9,9 @@
                 <p>{{text | toUpperCase | to-lowercase}}</p> -->
                 
         <router-view></router-view>
-        <app-Footer></app-Footer>
+         <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
+        <app-Footer v-else></app-Footer>
+         
     </div>
 </template>
 
@@ -17,6 +19,7 @@
 /* eslint-disable */
     import Admin from './components/admin/Admin.vue';
     import HeaderAdmin from './components/admin/Header.vue';
+     import FooterAdmin from './components/admin/Footer.vue';
     import Header from './components/Header.vue';
    
     export default {
@@ -33,6 +36,7 @@
         components:{
             appAdmin:Admin,
             appHeaderAdmin:HeaderAdmin,
+            appFooterAdmin:FooterAdmin,
             appHeader:Header,
            
         },directives:{

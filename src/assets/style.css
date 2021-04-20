@@ -1,5 +1,152 @@
 .adminpanel {
     background-color: rgba(182, 134, 142, 0.979);
-    padding: 0;
+    padding: 10px;
     border-bottom: 1.5px solid #000000;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    height: 9vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+    color: blanchedalmond;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(177 79 96 / 98%);
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(182, 134, 142, 0.979);
+    letter-spacing: .3em;
+    font-size: 2.0vw;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main-container {
+    background-color: #ecd5d9;
+    margin: 0 auto;
+    padding-top: 1%;
+    font-size: 1vmax;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title,
+#text,
+#product_link,
+input[type="number"],
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 12px;
+    background-color: white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+input[type="file"] {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+#submit {
+    background-color: rgba(182, 134, 142, 0.979);
+    border-radius: 1px;
+    color: black;
+    width: 100px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: white;
+}
+
+::-webkit-file-upload-button {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+ ::-webkit-file-upload-button:hover {
+    background: rgba(182, 134, 142, 0.979);
+    color: black;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1024px) {
+    #title,
+    #text,
+    #product_link,
+    input[type="number"],
+    textarea {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 8px;
+        background-color: white;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 1px;
+        border: 1px solid black;
+    }
+    input[type="file"] {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        background-color: white;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        border-radius: 1px;
+        border: 1px solid black;
+    }
+    .title {
+        margin-top: 50px;
+    }
 }
