@@ -26,7 +26,7 @@
         data(){
             return{
                 text:'Hello World',
-                isAdmin: true
+                isAdmin: false
             }
         },filters:{
             toUpperCase(value){
