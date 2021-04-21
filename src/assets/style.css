@@ -1,6 +1,6 @@
 
 .adminpanel {
-    background-color: rgba(182, 134, 142, 0.979);
+    background-color:#ecd5d9/* rgba(182, 134, 142, 0.979)*/;
     padding: 10px;
     border-bottom: 1.5px solid #000000;
 }
@@ -21,17 +21,154 @@
 .nav-link {
     color: black;
     font-size: 20px;
+    margin-right: 180px;
+    
+}
+
+
+.nav-link  ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid transparent;
+    transition: 0.4s ease-in;
 }
 
 .nav-link:hover {
-    color: rgb(177 79 96 / 98%);
+   color: rgb(177 79 96 / 98%);
+   
+}
+.blog{
+    margin-right: 290px;
+    font-family: Brush Script MT;
+    display: inline-block;
+    font-size: 30px;
 }
 .introduction{
     background:  #ecd5d9;
-    height: 350px;
+    height: 550px;
+   
 
 }
 
+h1{
+    font-size: 70px;
+    color: black;
+    margin-left: 130px;
+    
+    
+}
+.text{
+    font-size: 27px;
+    font-style: initial;
+    margin: 20px 0px 0px 20px;
+
+}
+.cta {
+    padding: 50px 0px 0px 0px;
+    
+}
+.cta-select {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 111px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    border-radius: 1px;
+}
+.cta-add {
+    display: center;
+    background: rgba(182, 134, 142, 0.979);
+    width: 111px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    color: black;
+    margin: 20px 0px 0px 20px;
+    border-radius: 1px;
+}
+.footer-1{
+    background:rgba(182,134,142,0.979);
+    height: 333px;
+    width: auto;  
+    display: flex;
+}
+.footer-content{
+    display: inline-flex
+}
+.subscribe{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 100px;
+}
+.subscribe #email{
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: black;
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+.subscribe #submit{
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: white;
+    width: 100px;
+    color: black;
+    text-align: center;
+}
+.vi {
+    margin: 50px ;
+    border-left: 1px solid black;
+    border-style: ridge;
+    height: 200px;
+    margin-left: 200px;
+  }
+  
+.list1{
+   
+    list-style: none;
+    margin-right: 40px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.quick-links ul li a{
+   color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.quick-links ul li a:hover{
+    color: #ecd5d9;
+   
+ }
+ .social ul li a{
+    
+    color: rgba(182,134,142,0.979);
+    border-width: 2px;
+     
+     margin-top: 80px;
+     margin-left: 70px;
+     padding-top: 20px;
+     
+     height: 40px;
+     border-radius: 20px;
+ }
+ 
+ 
+ .social ul li {
+     list-style: none;
+     margin-top: 24px;
+ }
+ 
 .title {
     width: 100%;
     text-align: center;

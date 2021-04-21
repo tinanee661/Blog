@@ -32,24 +32,65 @@
                 </ul>
                 </div>
             </div>
+            <h4 class="blog">MakeupBlog</h4>
         </nav>
-    <div class="introduction">
-        <div>
-        <h1><b>Welcome.</b></h1>
-        <div class="text">
-        <p > Everything you need to know about
-                    the beauty world & trends. Makeup reviews, tutorials, beauty tips & so much more.</p>
+         <div class="introduction">
+    <div class="text-1">
+        
+        <h1 ><b>Welcome.</b></h1>
+            <div class="text">
+                  <p > Everything you need to know about
+                    the beauty world & trends.<br> Makeup reviews, tutorials, beauty tips & so much more.</p>
                     <strong>Log in or sign in to get started</strong>
-              </div>
+            </div>
+    </div>          
+              
              <div class="cta">
                 <button class="cta-select" onclick="">Sign Up</button>
                 <button class="cta-add" onclick="">Log In</button>
              </div>
            <div class="cover">
             <img src="img///coverphoto.png" alt="coverphoto.png" />
-        </div>     
+           
     </div>
  </div>
-             
+             <footer class="footer-1">
+            <div class="footer-content">
+            <div class="subscribe">
+                <form action="" method="POST" enctype="">
+            <p>Subscribe to our newsletter</p>
+                <input name="email" type="text" id="email" placeholder="  Please enter your email" required> <br>
+                <input id="submit" type="submit" name="submit" value="Submit" >
+            </form>
+            </div>
+             <div class="vi"></div>
+         <div class="quick-links">
+
+            <ul class="list1">
+                <li><a href="index.php" target="" class="" title="">Home</a></li> <br>
+                <li><a href="reviews.php" target="" class="" title="">Reviews</a></li><br>
+                <li><a href="contact.php" target="" class="" title="Contact Us">Contact</a></li><br>
+                <li><a href="about.php" target="" class="" title="About Us">About</a></li> <br>
+            </ul>
+        
+
+
+        </div>
+        <div class="vi"></div>
+    <div class="social">
+            <ul>
+                <li><a href="https://www.instagram.com"><img src="img/instagram.png" alt="" width="40px" height="40px"></a></li>
+                <li><a href="https://www.facebook.com"><img src="img/facebook.png" alt="" width="40px" height="40px"></a></li>
+                <li><a href="https://www.twitter.com"><img src=" img/twitter.png" alt="" width="40px" height="40px"></a></li>
+                <li><a href="https://www.youtube.com"><img src="img/youtube.png" alt="" width="40px" height="40px"></a></li><br>
+               
+
+            </ul>
+        </div>
+
+        </div>
+             </footer>
+    </div>
+   
 
 </template>
