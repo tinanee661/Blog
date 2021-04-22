@@ -1,7 +1,25 @@
 <template>
     <div>
        
-       
+         
+         <div class="introduction">
+            <div class="text-1">
+                <h1 ><b>Welcome.</b></h1>
+                <div class="text">
+                    <p > Everything you need to know about
+                        the beauty world & trends.<br> Makeup reviews, tutorials, beauty tips & so much more.</p>
+                        <strong>Log in or sign in to get started</strong>
+                </div>
+            </div>          
+                        
+            <div class="cta">
+                <button class="cta-select" onclick="">Sign Up</button>
+                <button class="cta-add" onclick="">Log In</button>
+            </div>
+            <div class="cover">
+                <img src="/components/src/img/coverphoto.png" alt="coverphoto.png" />
+            </div>
+        </div>
         <footer class="footer-1">
             <div class="footer-content">
                 <div class="subscribe">
@@ -9,24 +27,23 @@
                     <p>Subscribe to our newsletter</p>
                         <input name="email" type="text" id="email" placeholder="  Please enter your email" required> <br>
                         <input id="submit" type="submit" name="submit" value="Submit" >
-                    </form>
-                </div>
+                    </form> 
                 <div class="vi"></div>
                 <div class="quick-links">
                     <ul class="list1">
-                        <li><a href="Home.vue" target="" class="" title="">Home</a></li> <br>
+                        <li><a href="index" target="" class="" title="">Home</a></li> <br>
                         <li><a href="reviews.vue" target="" class="" title="">Reviews</a></li><br>
-                        <li><a href="Contact.vue" target="" class="" title="Contact Us">Contact</a></li><br>
-                        <li><a href="About.vue" target="" class="" title="About Us">About</a></li> <br>
+                        <li><a href="contact" target="" class="" title="Contact Us">Contact</a></li><br>
+                        <li><a href="about" target="" class="" title="About Us">About</a></li> <br>
                     </ul>
                 </div>
                 <div class="vi"></div>
                 <div class="social">
                     <ul>
-                        <li><a href="https://www.instagram.com"><img src="@/components/guest/img/instagram.png" alt="" width="40px" height="40px"></a></li>
-                        <li><a href="https://www.facebook.com"><img src="@/components/guest/img/facebook.png" alt="" width="40px" height="40px"></a></li>
-                        <li><a href="https://www.twitter.com"><img src=" @/components/guest/img/twitter.png" alt="" width="40px" height="40px"></a></li>
-                        <li><a href="https://www.youtube.com"><img src="@/components/guest/img/youtube.png" alt="" width="40px" height="40px"></a></li><br>
+                        <li><a href="https://www.instagram.com"><img src="img/instagram.png" alt="" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.facebook.com"><img src="img/facebook.png" alt="" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.twitter.com"><img src=" img/twitter.png" alt="" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.youtube.com"><img src="img/youtube.png" alt="" width="40px" height="40px"></a></li><br>
                     
 
                     </ul>
@@ -38,4 +55,8 @@
 
 
 </template>
+<style lang="css">
 
+    
+
+</style>
