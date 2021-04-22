@@ -14,6 +14,6 @@ export const routes = [
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/editpost', name: 'editpost', component: EditPost },
     { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
-    {path:'/menu/about', name: 'about',component:About},
+    { path: '/menu/about', name: 'about', component: About },
 
 ]

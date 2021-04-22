@@ -10,7 +10,8 @@
                 <p>{{text | toUpperCase | to-lowercase}}</p> -->
                 
         <router-view></router-view>
-         <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
+        
+        <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
         <app-Footer v-else></app-Footer>
         
     </div>
