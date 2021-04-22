@@ -14,7 +14,7 @@
                     </router-link>
                 </li>
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/" >
+                    <router-link class="nav-link" to="" >
                     <a>Reviews</a>
                     </router-link>
                 </li>
@@ -24,7 +24,7 @@
                     </router-link>
                 </li>
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/" >
+                    <router-link class="nav-link" to="/menu/about" >
                     <a>About</a>
                     </router-link>
                 </li>
@@ -50,7 +50,7 @@
                 <button class="cta-add" onclick="">Log In</button>
              </div>
            <div class="cover">
-            <img src="img///coverphoto.png" alt="coverphoto.png" />
+            <img src="components/src/img/coverphoto.png" alt="coverphoto.png" />
            
     </div>
  </div>
@@ -67,10 +67,10 @@
          <div class="quick-links">
 
             <ul class="list1">
-                <li><a href="index.php" target="" class="" title="">Home</a></li> <br>
-                <li><a href="reviews.php" target="" class="" title="">Reviews</a></li><br>
-                <li><a href="contact.php" target="" class="" title="Contact Us">Contact</a></li><br>
-                <li><a href="about.php" target="" class="" title="About Us">About</a></li> <br>
+                <li><a href="index" target="" class="" title="">Home</a></li> <br>
+                <li><a href="reviews.vue" target="" class="" title="">Reviews</a></li><br>
+                <li><a href="contact" target="" class="" title="Contact Us">Contact</a></li><br>
+                <li><a href="about" target="" class="" title="About Us">About</a></li> <br>
             </ul>
         
 

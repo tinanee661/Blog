@@ -2,6 +2,7 @@
     <div>
         <app-Header-Admin v-if="isAdmin"></app-Header-Admin>
         <app-Header v-else></app-Header>
+       
 
                 <!--<h1 v-highlight="'red'">Routing</h1>
                 <p >Hello World</p>
@@ -11,7 +12,7 @@
         <router-view></router-view>
          <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
         <app-Footer v-else></app-Footer>
-         
+        
     </div>
 </template>
 
@@ -21,6 +22,7 @@
     import HeaderAdmin from './components/admin/Header.vue';
      import FooterAdmin from './components/admin/Footer.vue';
     import Header from './components/Header.vue';
+    
    
     export default {
         data(){
@@ -38,6 +40,7 @@
             appHeaderAdmin:HeaderAdmin,
             appFooterAdmin:FooterAdmin,
             appHeader:Header,
+          
            
         },directives:{
             'local-hightlight':{
