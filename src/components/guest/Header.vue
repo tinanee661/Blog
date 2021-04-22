@@ -9,22 +9,22 @@
                 <div class="collapse navbar-collapse" id="main-navigation">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/guest/home" >
+                    <router-link class="nav-link" to="/guest/menu/home" >
                     <a>Home</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/guest/reviews" >
+                    <router-link class="nav-link" to="/guest/menu/reviews" >
                     <a>Reviews</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/guest/contact" >
+                    <router-link class="nav-link" to="/guest/menu/contact" >
                     <a>Contact</a>
                     </router-link>
                 </li>
                 <li class="nav-item" >
-                    <router-link class="nav-link" to="/guest/about" >
+                    <router-link class="nav-link" to="/guest/menu/about" >
                     <a>About</a>
                     </router-link>
                 </li>

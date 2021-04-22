@@ -47,23 +47,31 @@
     font-size: 30px;
 }
 .introduction{
-    background:  #ecd5d9;
     height: 550px;
+    background:  #ecd5d9;
+
+    
+    
+    
    
 
 }
 
-h1{
+/*.text-1{
     font-size: 70px;
     color: black;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
+    /*margin: 50px 0px 0px 200px;*/
+   
+
     
-    
-}
+
+
+
 .text{
     font-size: 27px;
     font-style: initial;
-    margin: 20px 0px 0px 20px;
+    margin: 100px 0px 0px 40px;
 
 }
 .cta {
@@ -114,6 +122,7 @@ h1{
     width: 300px;
     border-radius: 25px;
     margin-bottom: 5px;
+    
 }
 .subscribe #submit{
     height: 40px;
@@ -210,7 +219,12 @@ form {
     align-items: center;
     flex-direction: column;
 }
-
+.cover img{
+   
+     margin-left: 820px;
+     margin-top: -350px;
+   
+}
 #title,
 #text,
 #product_link,
