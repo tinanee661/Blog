@@ -21,8 +21,8 @@
 /* eslint-disable */
     import Admin from './components/admin/Admin.vue';
     import HeaderAdmin from './components/admin/Header.vue';
-     import FooterAdmin from './components/admin/Footer.vue';
-    import Header from './components/Header.vue';
+     import FooterAdmin from'./components/admin/Footer.vue';
+    import Header from './components/guest/Header.vue';
     
    
     export default {
