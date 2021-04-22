@@ -21,8 +21,10 @@
 /* eslint-disable */
     import Admin from './components/admin/Admin.vue';
     import HeaderAdmin from './components/admin/Header.vue';
-     import FooterAdmin from'./components/admin/Footer.vue';
+    import FooterAdmin from'./components/admin/Footer.vue';
+   
     import Header from './components/guest/Header.vue';
+    import Footer from'./components/guest/Footer.vue';
     
    
     export default {
@@ -40,7 +42,9 @@
             appAdmin:Admin,
             appHeaderAdmin:HeaderAdmin,
             appFooterAdmin:FooterAdmin,
+          
             appHeader:Header,
+            appFooter:Footer,
           
            
         },directives:{

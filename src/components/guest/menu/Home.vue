@@ -1,5 +1,5 @@
 <template>
- <div class="introduction">
+<div class="introduction">
             <div class="text-1">
                 <h1 ><b>Welcome.</b></h1>
                 <div class="text">
@@ -17,7 +17,5 @@
                 <img src="components/src/img/coverphoto.png" alt="coverphoto.png" />
             </div>
         </div>
-     
-    
-
+  
 </template>
