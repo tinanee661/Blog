@@ -1,3 +1,31 @@
 <template>
-   <h1> About</h1>
+    <div class="container">
+
+            <div class="content">
+
+                <h2>About Us</h2>
+
+                <div class="story">
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cupiditate corrupti excepturi
+                        dolores
+                        aspernatur, neque rem accusamus quam animi voluptates recusandae cumque nulla dicta nisi, autem
+                        quasi
+                        porro. Corrupti rem impedit placeat consequatur aperiam eligendi incidunt a sequi nisi animi,
+                        eius
+                        in
+                        non veritatis omnis aliquid labore ab! Quas accusantium odio ipsam eius facilis tenetur maxime
+                        assumenda
+                        laborum ducimus laboriosam odit ratione quisquam quam debitis, porro inventore voluptatem magni
+                        </p>
+
+                    <h6> FOUNDERS </h6>
+
+                    <div class="founders">
+                        <img id="founder" src="@/components/guest/img/mu.jpg" alt="founder1">
+                        <img id="founder" src="@/components/guest/img/mu.jpg" alt="founder2">
+                    </div>
+                </div>
+            </div>
+          </div>
 </template>
