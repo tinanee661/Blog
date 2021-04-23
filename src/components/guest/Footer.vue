@@ -14,7 +14,7 @@
                 <div class="quick-links">
                     <ul class="list1">
                         <li><a href="index" target="" class="" title="">Home</a></li> <br>
-                        <li><a href="reviews.vue" target="" class="" title="">Reviews</a></li><br>
+                        <li><a href="reviews" target="" class="" title="">Reviews</a></li><br>
                         <li><a href="contact" target="" class="" title="Contact Us">Contact</a></li><br>
                         <li><a href="about" target="" class="" title="About Us">About</a></li> <br>
                     </ul>

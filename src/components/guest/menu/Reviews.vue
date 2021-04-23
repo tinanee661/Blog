@@ -1,13 +1,13 @@
 <template>
       <div class="container">
             <div class="title">
-                <h1> Take a look about what our guests have been saying about us</h1> 
+                <h3> Take a look about what our guests have been saying about us</h3> 
             </div>
             <div class="content">
               
                     <div class="review">
                         <div class="head-review">
-                            <img src="img/profile.jpg" width="250px" alt="">
+                            <img src="@/components/guest/img/profile.jpg" width="250px" alt="">
                         </div>
                         <div class="body-review">
                             <div class="name-review">Jane Doe</div>
@@ -31,7 +31,7 @@
              
                     <div class="review">
                         <div class="head-review">
-                            <img src="img/profile.jpg" width="250px" alt="">
+                            <img src="@/components/guest/img/profile.jpg" width="250px" alt="">
                         </div>
                         <div class="body-review">
                             <div class="name-review">Jane Doe</div>
@@ -56,7 +56,7 @@
                 
                     <div class="review">
                         <div class="head-review">
-                            <img src="img/profile.jpg" width="250px" alt="">
+                            <img src="@/components/guest/img/profile.jpg" width="250px" alt="">
                         </div>
                         <div class="body-review">
                             <div class="name-review">Jane Doe</div>
