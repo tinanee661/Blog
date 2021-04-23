@@ -276,6 +276,152 @@ label {
     font-weight: 700;
 }
 
+.containerA{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 40px;
+}
+.story{
+ 
+    margin-top: 40px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6868e;
+    height: 720px;
+    width: 850px;
+    font-size: 40px;
+    padding: 10px; 
+    margin-bottom: 55px;
+}
+h2{
+    width: 100%;
+   text-align: center;
+   margin-top:15px;
+   color:rgba(182,134,142,0.979);
+   letter-spacing: .3em;
+   font-size:3.0vw;
+   font-weight: bold;
+   
+   text-transform: uppercase;
+   
+
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+h6{
+    text-align: center;
+    font-size: 25px;
+    margin-top:55px; 
+}
+.containerC{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(182, 134, 142, 0.979);
+
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.founders{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#founder{
+    
+    margin: 30px;
+    height: 250px;
+    width: 250px;
+}
+.nav ul{
+    list-style: none;
+    background-color: rgba(182, 134, 142, 0.979);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 5px solid #000000;
+}
+
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width:130px;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s ;
+}
+
+.nav a:hover {
+    background: black;
+    background: linear-gradient(rgb(136, 134, 134),rgb(95, 93, 93),rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
+    background: linear-gradient(to center, black);
+    transition: 0.2s;
+    border-bottom: 5px solid black;
+}
+p{
+    margin-top: 20px;
+    text-align:center;
+    color:  black;
+  }
+.contentC{
+  
+    display: flex;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.mapC{
+   margin-top: 33px;
+    margin-left: 80px;
+}
+.formC{
+    margin-right: 30px;
+}
+#fname, #emailc, textarea {
+    width: 650px;
+    padding: 12px;
+    background-color: #f2f3f4;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#submitc {
+    background-color: white;
+    border-radius: 1px;
+    color: black;
+    width: 100px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+
+label{
+      color: black ;
+}
+
 @media only screen and (max-width: 1024px) {
     #title,
     #text,
