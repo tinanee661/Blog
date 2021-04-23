@@ -1,11 +1,7 @@
 <template>
-
-   
       <div class="container">
-    
             <div class="title">
                 <h1> Take a look about what our guests have been saying about us</h1> 
-                
             </div>
             <div class="content">
               
@@ -32,7 +28,6 @@
                             </div>
                         </div>
                     </div>
-             
              
                     <div class="review">
                         <div class="head-review">

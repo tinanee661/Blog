@@ -1,4 +1,3 @@
-import HelloWorld from './components/HelloWorld';
 import Admin from './components/admin/Admin';
 import AddPost from './components/admin/posts/AddPost';
 import EditPost from './components/admin/posts/EditPost';
@@ -13,7 +12,6 @@ import Home from './components/guest/menu/Home';
 
 
 export const routes = [
-    { path: '/about', name: 'home', component: HelloWorld },
     { path: '/admin', name: 'admin', component: Admin },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/editpost', name: 'editpost', component: EditPost },
@@ -22,5 +20,4 @@ export const routes = [
     { path: '/guest/menu/contact', name: 'contact', component: Contact },
     { path: '/guest/menu/reviews', name: 'reviews', component: Reviews },
     { path: '/guest/menu/home', name: 'home', component: Home },
-    
 ]
