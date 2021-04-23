@@ -47,25 +47,15 @@
     font-size: 30px;
 }
 .introduction{
-    height: 550px;
+    height: 600px;
+    border: 1px solid #ecd5d9;
     background:  #ecd5d9;
 
-    
-    
-    
-   
-
 }
-
-/*.text-1{
+h1{
     font-size: 70px;
-    color: black;
-    /*margin-left: 130px;*/
-    /*margin: 50px 0px 0px 200px;*/
-   
-
-    
-
+    color: rgb(19, 18, 18);
+}
 
 
 .text{
@@ -75,7 +65,7 @@
 
 }
 .cta {
-    padding: 50px 0px 0px 0px;
+    padding: 50px 0px 0px 80px;
     
 }
 .cta-select {
@@ -222,7 +212,7 @@ form {
 .cover img{
    
      margin-left: 820px;
-     margin-top: -350px;
+     margin-top: -370px;
    
 }
 #title,
