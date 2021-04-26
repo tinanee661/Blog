@@ -1,6 +1,6 @@
-
 .adminpanel {
-    background-color:#ecd5d9/* rgba(182, 134, 142, 0.979)*/;
+    background-color: #ecd5d9/* rgba(182, 134, 142, 0.979)*/
+    ;
     padding: 10px;
     border-bottom: 1.5px solid #000000;
 }
@@ -14,7 +14,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: rgba(182,134,142,0.979);
+    background: rgba(182, 134, 142, 0.979);
     color: blanchedalmond;
 }
 
@@ -22,52 +22,50 @@
     color: black;
     font-size: 20px;
     margin-right: 180px;
-    
 }
 
-
-.nav-link  ul li a{
+.nav-link ul li a {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 5px 10px;
-    margin: 10px;
+    padding: 1px;
+    margin: 8;
     border: 1px solid transparent;
     transition: 0.4s ease-in;
 }
 
 .nav-link:hover {
-   color: rgb(177 79 96 / 98%);
-   
+    color: rgb(177 79 96 / 98%);
 }
-.blog{
+
+.blog {
     margin-right: 290px;
     font-family: Brush Script MT;
     display: inline-block;
     font-size: 30px;
 }
-.introduction{
+
+.introduction {
     height: 600px;
     border: 1px solid #ecd5d9;
-    background:  #ecd5d9;
-
+    background: #ecd5d9;
 }
-h1{
+
+h1 {
     font-size: 70px;
     color: rgb(19, 18, 18);
 }
 
-
-.text{
+.text {
     font-size: 27px;
     font-style: initial;
     margin: 100px 0px 0px 40px;
-
 }
+
 .cta {
     padding: 50px 0px 0px 80px;
-    
 }
+
 .cta-select {
     display: center;
     background: rgba(182, 134, 142, 0.979);
@@ -79,6 +77,7 @@ h1{
     margin: 20px 0px 0px 20px;
     border-radius: 1px;
 }
+
 .cta-add {
     display: center;
     background: rgba(182, 134, 142, 0.979);
@@ -90,21 +89,25 @@ h1{
     margin: 20px 0px 0px 20px;
     border-radius: 1px;
 }
-.footer-1{
-    background:rgba(182,134,142,0.979);
+
+.footer-1 {
+    background: rgba(182, 134, 142, 0.979);
     height: 333px;
-    width: auto;  
+    width: auto;
     display: flex;
 }
-.footer-content{
+
+.footer-content {
     display: inline-flex;
 }
-.subscribe{
+
+.subscribe {
     margin-top: 50px;
     margin-left: 20px;
     height: 100px;
 }
-.subscribe #email{
+
+.subscribe #email {
     margin-top: 20px;
     background-color: #ffffff;
     color: black;
@@ -112,72 +115,63 @@ h1{
     width: 300px;
     border-radius: 25px;
     margin-bottom: 5px;
-    
 }
-.subscribe #submit{
+
+.subscribe #submit {
     height: 40px;
     margin-top: 15px;
     border-radius: 25px;
     background-color: white;
     width: 100px;
     color: black;
-   
-    
-    
 }
 
-.quick-links a , .subscribe p{
+.quick-links a,
+.subscribe p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-size: 18px;
 }
 
-
 .vi {
-    margin: 50px ;
+    margin: 50px;
     border-left: 1px solid black;
     border-style: ridge;
     height: 200px;
     margin-left: 200px;
-  }
-  
-.list1{
-   
+}
+
+.list1 {
     list-style: none;
     margin-right: 40px;
-    
     margin-top: 50px;
 }
 
-.quick-links ul li a{
-   color: black;
+.quick-links ul li a {
+    color: black;
     font-size: 20px;
     text-decoration: none;
 }
 
-.quick-links ul li a:hover{
+.quick-links ul li a:hover {
     color: #ecd5d9;
-   
- }
- .social ul li a{
-    
-    color: rgba(182,134,142,0.979);
+}
+
+.social ul li a {
+    color: rgba(182, 134, 142, 0.979);
     border-width: 2px;
-     
-     margin-top: 80px;
-     margin-left: 70px;
-     padding-top: 20px;
-     
-     height: 40px;
-     border-radius: 20px;
- }
- 
- 
- .social ul li {
-     list-style: none;
-     margin-top: 24px;
- }
- 
+    margin-top: 80px;
+    margin-left: 70px;
+    padding-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.social ul li {
+    list-style: none;
+    margin-top: 24px;
+}
+
 .title {
     width: 100%;
     text-align: center;
@@ -209,12 +203,12 @@ form {
     align-items: center;
     flex-direction: column;
 }
-.cover img{
-   
-     margin-left: 820px;
-     margin-top: -370px;
-   
+
+.cover img {
+    margin-left: 820px;
+    margin-top: -370px;
 }
+
 #title,
 #text,
 #product_link,
@@ -276,8 +270,7 @@ label {
     font-weight: 700;
 }
 
-.containerA{
-    
+.containerA {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -285,8 +278,8 @@ label {
     height: auto;
     margin-bottom: 40px;
 }
-.story{
- 
+
+.story {
     margin-top: 40px;
     display: inline-block;
     justify-content: center;
@@ -295,59 +288,58 @@ label {
     height: 720px;
     width: 850px;
     font-size: 40px;
-    padding: 10px; 
+    padding: 10px;
     margin-bottom: 55px;
 }
-h2{
-    width: 100%;
-   text-align: center;
-   margin-top:15px;
-   color:rgba(182,134,142,0.979);
-   letter-spacing: .3em;
-   font-size:3.0vw;
-   font-weight: bold;
-   
-   text-transform: uppercase;
-   
 
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(182, 134, 142, 0.979);
+    letter-spacing: .3em;
+    font-size: 3.0vw;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-h5{
+
+h5 {
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
 }
-h6{
+
+h6 {
     text-align: center;
     font-size: 25px;
-    margin-top:55px; 
+    margin-top: 55px;
 }
-.containerC{
+
+.containerC {
     margin: 0;
     padding: 0;
     background-color: rgba(182, 134, 142, 0.979);
-
 }
 
-p{
+p {
     text-align: center;
     font-size: 20px;
 }
 
-.founders{
-
+.founders {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-#founder{
-    
+
+#founder {
     margin: 30px;
     height: 250px;
     width: 250px;
 }
-.nav ul{
+
+.nav ul {
     list-style: none;
     background-color: rgba(182, 134, 142, 0.979);
     text-align: center;
@@ -355,7 +347,6 @@ p{
     margin: 0;
     border-bottom: 5px solid #000000;
 }
-
 
 .nav li {
     display: inline-block;
@@ -365,41 +356,46 @@ p{
     display: block;
     text-decoration: none;
     color: white;
-    width:130px;
+    width: 130px;
     display: block;
     padding: 10px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.2s ;
+    transition: 0.2s;
 }
 
 .nav a:hover {
     background: black;
-    background: linear-gradient(rgb(136, 134, 134),rgb(95, 93, 93),rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
+    background: linear-gradient(rgb(136, 134, 134), rgb(95, 93, 93), rgb(66, 64, 64), rgb(26, 24, 24), rgb(17, 16, 16), black);
     background: linear-gradient(to center, black);
     transition: 0.2s;
     border-bottom: 5px solid black;
 }
-p{
+
+p {
     margin-top: 20px;
-    text-align:center;
-    color:  black;
-  }
-.contentC{
-  
+    text-align: center;
+    color: black;
+}
+
+.contentC {
     display: flex;
     margin: 50px;
     overflow: hidden;
 }
 
-.mapC{
-   margin-top: 33px;
+.mapC {
+    margin-top: 33px;
     margin-left: 80px;
 }
-.formC{
+
+.formC {
     margin-right: 30px;
 }
-#fname, #emailc, textarea {
+
+#fname,
+#emailc,
+textarea {
     width: 650px;
     padding: 12px;
     background-color: #f2f3f4;
@@ -417,9 +413,8 @@ p{
     cursor: pointer;
 }
 
-
-label{
-      color: black ;
+label {
+    color: black;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -453,5 +448,4 @@ label{
     .title {
         margin-top: 50px;
     }
-    
 }
