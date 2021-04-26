@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import axios from 'axios'
+
 // import * as firebase from "firebase";
 //fajlli routes importohet te kjo pjese dhe ne at file kemi deklaruar routat e ndryshem se cila route te cila komponent dergon gjate klikut
 import { routes } from './routes';
@@ -11,6 +13,11 @@ import store from "./store";
 Vue.filter('to-lowercase', function(value) {
     return value.toLowerCase();
 });
+
+const instanceAxios = axios.create({
+    baseURL: 'http://localhost:4000',
+});
+Vue.prototype.axios = instanceAxios
 
 //regjistrimi i direktives globable highlight 
 Vue.directive('highlight', {
@@ -49,6 +56,7 @@ const router = new VueRouter({
     mode: 'history',
     routes
 });
+
 new Vue({
     el: '#app',
     store,
