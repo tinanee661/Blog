@@ -37,7 +37,9 @@
 
 
 <style lang="css" scoped>
+
     .nav-link {
+        background-color: rgba(182, 134, 142, 0.979);
         color: black;
         font-size: 20px;
         margin-right: 0 !important;

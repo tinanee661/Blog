@@ -1,6 +1,5 @@
 .adminpanel {
-    background-color: #ecd5d9/* rgba(182, 134, 142, 0.979)*/
-    ;
+    background-color: rgba(182, 134, 142, 0.979);
     padding: 10px;
     border-bottom: 1.5px solid #000000;
 }
