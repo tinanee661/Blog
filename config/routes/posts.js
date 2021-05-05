@@ -9,7 +9,7 @@ var fs = require('fs');
 
 var storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, '../static/images/')
+        cb(null, 'images/posts/')
     },
     filename: (req, file, cb) => {
         let ext = file.originalname.substring(file.originalname.indexOf(".") + 1);
@@ -20,11 +20,11 @@ var upload = multer({
     storage: storage
 });
 
-/* GET ALL products */
+/* GET ALL posts */
 router.get('/', function(req, res, next) {
-    Posts.find(function(err, products) {
+    Posts.find(function(err, posts) {
         if (err) return next(err);
-        res.json(products);
+        res.json(posts);
     });
 });
 
@@ -48,7 +48,7 @@ router.post('/', upload.single('image'),
     function(req, res) {
         console.log(req.file)
         let post = req.body;
-        post.title = req.body.name
+        post.title = req.body.title
         post.image = req.body.image != 'undefined' ? req.file.filename : null
         post.description = req.body.description
         post.design = req.body.design

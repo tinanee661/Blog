@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import axios from 'axios'
+import moment from 'moment'
 
 // import * as firebase from "firebase";
 //fajlli routes importohet te kjo pjese dhe ne at file kemi deklaruar routat e ndryshem se cila route te cila komponent dergon gjate klikut
@@ -12,6 +13,9 @@ import store from "./store";
 //regjistrimi i filterit global per zvogelimin e shkronjave
 Vue.filter('to-lowercase', function(value) {
     return value.toLowerCase();
+});
+Vue.filter('human-date', function(value) {
+    return moment(value).fromNow();
 });
 
 const instanceAxios = axios.create({

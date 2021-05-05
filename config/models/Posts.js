@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const HomeSchema = mongoose.Schema({
+const PostSchema = mongoose.Schema({
     title: String,
     image: String,
     description: String,
@@ -8,4 +8,4 @@ const HomeSchema = mongoose.Schema({
     product_link: String,
     updated_date: { type: Date, default: Date.now },
 });
-module.exports = mongoose.model('Posts', HomeSchema);
+module.exports = mongoose.model('Posts', PostSchema);

@@ -8,8 +8,9 @@
                 <p >Hello World</p>
                 <h3>Local Directive</h3>
                 <p>{{text | toUpperCase | to-lowercase}}</p> -->
-                
-        <router-view></router-view>
+        <div class="container my-2">
+            <router-view></router-view>
+        </div>        
         
         <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
         <app-Footer v-else></app-Footer>
@@ -29,10 +30,11 @@
                 text:'Hello World',
                 isAdmin: true
             }
-        },filters:{
+        },
+        filters:{
             toUpperCase(value){
                 return value.toUpperCase();
-            }
+            },
         },
         components:{
             appHeader:Header,

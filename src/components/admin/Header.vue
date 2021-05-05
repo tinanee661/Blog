@@ -1,6 +1,6 @@
 <template>
-        <nav class="adminpanel navbar navbar-expand-lg ">
-            <div class="container-fluid">
+        <nav class="adminpanel navbar navbar-expand-lg">
+            <div class="container">
             
                 <div class="collapse navbar-collapse" id="main-navigation">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">

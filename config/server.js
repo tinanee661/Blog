@@ -7,10 +7,12 @@ const mongoose = require('mongoose');
 const config = require('./DB');
 const posts = require('./routes/posts');
 
+
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DB);
 
 const app = express();
+app.use(express.static('images'));
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/posts', posts);
