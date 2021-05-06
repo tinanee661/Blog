@@ -15,18 +15,8 @@
                             </router-link>
                         </li>
                         <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/posts/editpost" >
-                            <a>Edit Post</a>
-                            </router-link>
-                        </li>
-                        <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/posts/removepost" >
-                            <a>Remove Post</a>
-                            </router-link>
-                        </li>
-                        <li class="nav-item" id="navadmin">
                             <router-link class="nav-link" to="/" >
-                            <a>Remove User</a>
+                            <a>Users</a>
                             </router-link>
                         </li>
                     </ul>

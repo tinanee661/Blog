@@ -1,10 +1,6 @@
 <template>
-    
-       <div class="main-container">
-    
-    
+    <div class="main-container">
         <div class="content">
-            
             <form enctype="multipart/form-data">
                 <label for="">TITLE: </label> <br>
                 <input type="text" id="title" name="title" required v-model="title">
@@ -19,10 +15,8 @@
 
                 <input type="button" name="submit" id="submit" value="Add Post" @click="addPost()">
             </form>
-         </div>
-     </div>
-   
-
+        </div>
+    </div>
 </template>
 <style lang="css">
 

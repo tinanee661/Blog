@@ -14,7 +14,7 @@ import Home from './components/guest/menu/Home';
 export const routes = [
     { path: '/admin', name: 'admin', component: Admin },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
-    { path: '/admin/posts/editpost', name: 'editpost', component: EditPost },
+    { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
     { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
     { path: '/guest/menu/about', name: 'about', component: About },
     { path: '/guest/menu/contact', name: 'contact', component: Contact },

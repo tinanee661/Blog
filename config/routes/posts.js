@@ -36,14 +36,7 @@ router.get('/:id', function(req, res, next) {
     });
 });
 
-/* SAVE PRODUCT 
-router.post('/', function(req, res, next) {
-  Products.create(req.body, function (err, post) {
-      if (err) return next(err);
-      res.json(post);
-    });
-  });*/
-
+/* SAVE POST */
 router.post('/', upload.single('image'),
     function(req, res) {
         console.log(req.file)
@@ -57,10 +50,9 @@ router.post('/', upload.single('image'),
             if (err) return next(err);
             res.json(post);
         });
-
     });
 
-/* UPDATE PRODUCT */
+/* UPDATE POST */
 router.put('/:id', function(req, res, next) {
     console.log(req.body);
     Posts.findByIdAndUpdate(req.params.id, req.body, function(err, post) {
@@ -69,7 +61,7 @@ router.put('/:id', function(req, res, next) {
     });
 });
 
-/* DELETE PRODUCT */
+/* DELETE POST */
 router.delete('/:id', function(req, res, next) {
     Posts.findByIdAndRemove(req.params.id, req.body, function(err, post) {
         if (err) return next(err);

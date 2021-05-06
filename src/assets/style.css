@@ -448,3 +448,7 @@ label {
         margin-top: 50px;
     }
 }
+
+.text-left {
+    text-align: left!important;
+}
