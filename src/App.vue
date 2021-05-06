@@ -8,9 +8,7 @@
                 <p >Hello World</p>
                 <h3>Local Directive</h3>
                 <p>{{text | toUpperCase | to-lowercase}}</p> -->
-        <div class="container my-2">
-            <router-view></router-view>
-        </div>        
+        <router-view></router-view>
         
         <app-Footer-Admin v-if="isAdmin"></app-Footer-Admin>
         <app-Footer v-else></app-Footer>
@@ -28,7 +26,7 @@
         data(){
             return{
                 text:'Hello World',
-                isAdmin: true
+                isAdmin: false
             }
         },
         filters:{

@@ -19,6 +19,16 @@
                             <a>Users</a>
                             </router-link>
                         </li>
+                         <li class="nav-item" id="navadmin">
+                            <router-link class="nav-link" to="/" >
+                            <a>Testimonials</a>
+                            </router-link>
+                        </li>
+                         <li class="nav-item" id="navadmin">
+                            <router-link class="nav-link" to="/" >
+                            <a>Messages</a>
+                            </router-link>
+                        </li>
                     </ul>
                 </div>
             </div>
