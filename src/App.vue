@@ -21,6 +21,8 @@
     import FooterAdmin from './components/admin/Footer.vue';
     import Header from './components/guest/Header.vue';
     import Footer from './components/guest/Footer.vue';
+    import HeaderU from './components/user/HeaderU.vue';
+    import FooterU from './components/user/FooterU.vue';
     
     export default {
         data(){
@@ -39,6 +41,8 @@
             appFooter:Footer,
             appHeaderAdmin:HeaderAdmin,
             appFooterAdmin:FooterAdmin,
+            appHeaderU:HeaderU,
+            appFooterU:FooterU,
         },directives:{
             'local-hightlight':{
                 bind(el, binding, vnode){
