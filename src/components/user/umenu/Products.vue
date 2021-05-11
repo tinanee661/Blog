@@ -14,15 +14,19 @@
             
             <div class="content">
                 <div class="skincare">
-                    <a href="skincare.php">
-                        <img src="@/components/user/img/skincare2.png" title="insert title" width="333px" alt=""></a>
-                               
-                    </div>
+
+                  
+                    <router-link class="nav-link" to="/user/umenu/skincare" >
+                    <a>  <img src="@/components/user/img/skincare2.png" title="insert title" width="333px" alt=""></a>
+                    </router-link>
+            
+                 </div>
                    
                 <div class="makeup">
-                    <a href="makeup.php">
-                        <img src="@/components/user/img/makeup2.png" title="insert title" width="333px" alt=""></a>
-                      
+                    <router-link class="nav-link" to="/user/umenu/makeup" >
+                    <a>  <img src="@/components/user/img/makeup2.png" title="insert title" width="333px" alt=""></a>
+                    </router-link>
+             
                     </div>
                     
             </div>
