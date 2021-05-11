@@ -27,7 +27,7 @@
         </div>
         <div class="mapC">
           <a href="skincare.php">
-          <img src="@/components/guest/img/contactlogo.png" title="insert title" width="350px" height="350px" alt="insert description here"></a>
+          <img src="@/components/guest/img/coverphoto.png" title="insert title" width="350px" height="350px" alt="insert description here"></a>
         </div>
       </div>
     </div>

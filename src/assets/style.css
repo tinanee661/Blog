@@ -378,11 +378,14 @@ p {
     text-align: center;
     color: black;
 }
-
+.containerC{
+   box-sizing: content-box;
+}
 .contentC {
     display: flex;
     margin: 50px;
     overflow: hidden;
+
 }
 
 .mapC {
@@ -392,6 +395,7 @@ p {
 
 .formC {
     margin-right: 30px;
+    
 }
 
 #fname,
@@ -403,6 +407,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-radius: 10px;
 }
 
 #submitc {
@@ -412,6 +417,8 @@ textarea {
     width: 100px;
     padding: 12px 20px;
     cursor: pointer;
+    border-radius: 10px;
+   margin-bottom: 200px;
 }
 
 label {
