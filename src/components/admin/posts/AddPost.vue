@@ -53,7 +53,21 @@ export default {
                     'Content-Type': 'multipart/form-data'
                 }
             }).then(res => {
-                window.location.href = '/admin/';
+                this.$swal({
+                    icon: 'success',
+                    title: 'Post has been created!',
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.addEventListener('mouseenter', this.$swal.stopTimer)
+                        toast.addEventListener('mouseleave', this.$swal.resumeTimer)
+                    }
+                });
+
+                this.$router.push({name: 'admin'})
                 console.log(res)
             }).catch(e=>{
                 console.log(e)
