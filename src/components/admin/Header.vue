@@ -1,10 +1,9 @@
 <template>
-        <nav class="adminpanel navbar navbar-expand-lg">
+        <nav class="adminpanel navbar navbar-expand-lg" :style="'background-color: '+this.getCookie(this.cookieName)">
             <div class="container">
-            
-                <div class="collapse navbar-collapse" id="main-navigation">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item" id="navadmin">
+                        <li class="nav-item" id="navadmin">
                             <router-link class="nav-link" to="/admin" >
                             <a>Home</a>
                             </router-link>
@@ -19,17 +18,21 @@
                             <a>Users</a>
                             </router-link>
                         </li>
-                         <li class="nav-item" id="navadmin">
+                        <li class="nav-item" id="navadmin">
                             <router-link class="nav-link" to="/" >
                             <a>Testimonials</a>
                             </router-link>
                         </li>
-                         <li class="nav-item" id="navadmin">
+                        <li class="nav-item" id="navadmin">
                             <router-link class="nav-link" to="/" >
                             <a>Messages</a>
                             </router-link>
                         </li>
                     </ul>
+
+                    <router-link class="nav-link" to="/admin/settings/" >
+                        <img src="@/components/admin/img/settings.png" style="height: 26px;"/>
+                    </router-link>
                 </div>
             </div>
         </nav>
@@ -39,7 +42,6 @@
 <style lang="css" scoped>
 
     .nav-link {
-        background-color: rgba(182, 134, 142, 0.979);
         color: black;
         font-size: 20px;
         margin-right: 0 !important;

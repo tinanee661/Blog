@@ -12,12 +12,14 @@ import Skincare from './components/user/umenu/Skincare';
 import Makeup from './components/user/umenu/Makeup';
 import Testimonials from './components/user/umenu/Testimonials';
 import Contactu from './components/user/umenu/Contactu';
+import Settings from './components/admin/Settings';
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
 
 export const routes = [
     { path: '/admin', name: 'admin', component: Admin },
+    { path: '/admin/settings/', name: 'settings', component: Settings },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
     { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
