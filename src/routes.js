@@ -13,6 +13,7 @@ import Testimonials from './components/user/umenu/Testimonials';
 import Contactu from './components/user/umenu/Contactu';
 import Settings from './components/admin/Settings';
 import TestimonialsAdmin from './components/admin/TestimonialsAdmin';
+import User from './components/admin/User';
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -20,7 +21,8 @@ import TestimonialsAdmin from './components/admin/TestimonialsAdmin';
 export const routes = [
     { path: '/admin', name: 'admin', component: Admin },
     { path: '/admin/settings/', name: 'settings', component: Settings },
-    { path: '/admin/testimonialsadmin/', name: 'testimonialsadmin', component: TestimonialsAdmin },
+    { path: '/admin/testimonials/', name: 'testimonialsadmin', component: TestimonialsAdmin },
+    { path: '/admin/user/', name: 'user', component: User },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
     { path: '/guest/menu/about', name: 'about', component: About },

@@ -25,12 +25,13 @@
 <style lang="css" scoped>
 .main-container{
     height:100vh;
+    background-color:whitesmoke;
 }
 body {
-    margin: 0;
+   margin: 0;
    padding: 0;
    height: 100%;
-     font-family: sans-serif;
+   font-family: sans-serif;
    background: #ecd5d9
  }
 
@@ -38,7 +39,7 @@ body {
    width: 100%;
    text-align: center;
    margin-top:50px;
-   /* color:rgba(182,134,142,0.979); */
+   color:rgba(182,134,142,0.979); 
    letter-spacing: .3em;
    font-size:3.5vw;
    font-weight: normal;
