@@ -64,7 +64,9 @@ h1 {
 .cta {
     padding: 50px 0px 0px 80px;
 }
-
+.paragrafi{
+    margin-right: 700px;
+}
 .cta-select {
     display: center;
     background: rgba(182, 134, 142, 0.979);
