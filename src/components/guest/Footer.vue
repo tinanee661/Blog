@@ -22,7 +22,7 @@
                 <div class="vi"></div>
                 <div class="social">
                     <ul>
-                        <li><a href="https://www.instagram.com"><img src="instagram.png" alt="" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.instagram.com"><img src="@/components/guest/img/instagram.png" alt="" width="40px" height="40px"></a></li>
                         <li><a href="https://www.facebook.com"><img src="@/components/guest/img/facebook.png" alt="" width="40px" height="40px"></a></li>
                         <li><a href="https://www.facebook.com"><img src="@/components/guest/img/instagram.png" alt="" width="40px" height="40px"></a></li>
                          <li><a href="https://www.youtube.com"><img src="@/components/guest/img/youtube.png" alt="" width="40px" height="40px"></a></li><br>
