@@ -14,17 +14,17 @@
                             </router-link>
                         </li>
                         <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/user" >
+                            <router-link class="nav-link" to="/" >
                             <a>Users</a>
                             </router-link>
                         </li>
                         <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/testimonials" >
+                            <router-link class="nav-link" to="/" >
                             <a>Testimonials</a>
                             </router-link>
                         </li>
                         <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/messages" >
+                            <router-link class="nav-link" to="/" >
                             <a>Messages</a>
                             </router-link>
                         </li>
