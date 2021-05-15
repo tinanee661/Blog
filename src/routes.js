@@ -1,7 +1,6 @@
 import Admin from './components/admin/Admin';
 import AddPost from './components/admin/posts/AddPost';
 import EditPost from './components/admin/posts/EditPost';
-import RemovePost from './components/admin/posts/RemovePost';
 import About from './components/guest/menu/About';
 import Contact from './components/guest/menu/Contact';
 import Reviews from './components/guest/menu/Reviews';
@@ -13,6 +12,9 @@ import Makeup from './components/user/umenu/Makeup';
 import Testimonials from './components/user/umenu/Testimonials';
 import Contactu from './components/user/umenu/Contactu';
 import Settings from './components/admin/Settings';
+import TestimonialsAdmin from './components/admin/TestimonialsAdmin';
+import Messages from './components/admin/Messages';
+import User from './components/admin/User';
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -20,9 +22,11 @@ import Settings from './components/admin/Settings';
 export const routes = [
     { path: '/admin', name: 'admin', component: Admin },
     { path: '/admin/settings/', name: 'settings', component: Settings },
+    { path: '/admin/testimonials/', name: 'testimonialsadmin', component: TestimonialsAdmin },
+    { path: '/admin/messages/', name: 'messages', component: Messages },
+    { path: '/admin/user/', name: 'user', component: User },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
-    { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
     { path: '/guest/menu/about', name: 'about', component: About },
     { path: '/guest/menu/contact', name: 'contact', component: Contact },
     { path: '/guest/menu/reviews', name: 'reviews', component: Reviews },
