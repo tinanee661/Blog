@@ -32,7 +32,7 @@ body {
    padding: 0;
    height: 100%;
    font-family: sans-serif;
- }
+}
 
  h1 {
    width: 100%;
