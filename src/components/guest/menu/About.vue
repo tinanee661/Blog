@@ -3,7 +3,7 @@
 
             <div class="contentA">
 
-                <h2>About Us</h2>
+                <h2>About Our Blog</h2>
 
                 <div class="story">
                     <br>
@@ -22,7 +22,7 @@
                         laborum ducimus laboriosam odit ratione quisquam quam debitis, porro inventore voluptatem magni
                         </p>
 
-                    <h6> FOUNDERS </h6>
+                    <h6> FOUNDED BY: </h6>
 
                     <div class="founders">
                         <img id="founder" src="@/components/guest/img/mu.jpg" alt="founder1">

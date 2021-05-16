@@ -26,7 +26,7 @@
 
         </div>
         <div class="mapC">
-          <a href="skincare.php">
+          <a href="src\components\user\umenu\Skincare.vue">
           <img src="@/components/guest/img/coverphoto.png" title="insert title" width="350px" height="350px" alt="insert description here"></a>
         </div>
       </div>
