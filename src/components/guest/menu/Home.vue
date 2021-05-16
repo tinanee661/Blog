@@ -4,11 +4,10 @@
             <div class="text">
                 <h1 >Welcome.</h1>
                 <p class="paragrafi" > Everything you need to know about
-                    the beauty world and trends.<br> Makeup reviews, tutorials, beauty tips & so much more.</p>
-                    <strong>Log in or sign in to get started</strong>
+                    the beauty world.<br>Makeup reviews, tutorials, beauty tips & so much more.</p>
+                    <p class="paragraf">Log in or sign in to get started</p>
             </div>
         </div>          
-                   <h1> hi</h1> 
         <div class="cta">
             <button class="cta-select" onclick="">Sign Up</button>
             <button class="cta-add" onclick="">Log In</button>

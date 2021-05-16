@@ -55,6 +55,9 @@ h1 {
     color: rgb(19, 18, 18);
 }
 
+
+
+
 .text {
     font-size: 27px;
     font-style: initial;
@@ -66,8 +69,18 @@ h1 {
 }
 
 .paragrafi{
-    margin-right: 700px;
+    margin-right: 800px;
 }
+
+.paragraf{
+    font-weight: 500;
+    margin-right: 900px;
+    color: rgba(182, 134, 142, 0.979);
+    display: center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
 
 .cta-select {
     display: center;
