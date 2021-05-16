@@ -72,7 +72,7 @@ export default {
         .auth()
         .signInWithEmailAndPassword(this.form.email, this.form.password)
         .then(data => {
-          this.$router.push({name: 'home',})
+          this.$router.push({name: 'products',})
         })
         .catch(err => {
           this.error = err.message;

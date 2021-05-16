@@ -3,13 +3,12 @@ import firebase from 'firebase';
 const settings = {timestampsInSnapshots:true};
 
 const config = {
-    apiKey: "AIzaSyCfztGw3HqiIgkue6j4brqBtf02HikRXcU",
-    authDomain: "projekti2021-4f79b.firebaseapp.com",
-    databaseURL: "https://projekti2021-4f79b-default-rtdb.firebaseio.com",
-    projectId: "projekti2021-4f79b",
-    storageBucket: "projekti2021-4f79b.appspot.com",
-    messagingSenderId: "152892244498",
-    appId: "1:152892244498:web:e8d2af364357a64754cecb"
+    apiKey: "AIzaSyAtpmSGTsksuq4bLsQLY_8j8HdWmt8dc_U",
+    authDomain: "projekti2021-f2abb.firebaseapp.com",
+    projectId: "projekti2021-f2abb",
+    storageBucket: "projekti2021-f2abb.appspot.com",
+    messagingSenderId: "834980427190",
+    appId: "1:834980427190:web:562f76c6475445efccbd17"
 };
 firebase.initializeApp(config);
 
