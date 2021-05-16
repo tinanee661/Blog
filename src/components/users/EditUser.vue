@@ -43,7 +43,7 @@
 /*eslint-disable */
 
 import firebase from '../../Firebase'
-import router from '../../routes'
+import router from '@/router'
 
 export default {
   name: 'Edituser',
@@ -54,7 +54,7 @@ export default {
     }
   },
   created () {
-    const ref = firebase.firestore().collection('users').doc(this.$route.params.id);
+    const ref = firebase.firestore().collection('users').doc(route.params.id);
     ref.get().then((doc) => {
       if (doc.exists) {
         this.user = doc.data();
@@ -72,7 +72,7 @@ export default {
         this.user.name = ''
         this.user.description = ''
         this.user.email = ''
-        this.$router.push({ name: 'ShowUsers', params: { id: this.$route.params.id }})
+      router.push({ name: 'ShowUsers', params: { id: this.$route.params.id }})
       })
       .catch((error) => {
         alert("Error adding document: ", error);

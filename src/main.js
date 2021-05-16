@@ -24,7 +24,7 @@ Vue.use(VueSweetalert2);
 
 // import * as firebase from "firebase";
 //fajlli routes importohet te kjo pjese dhe ne at file kemi deklaruar routat e ndryshem se cila route te cila komponent dergon gjate klikut
-import { routes } from './routes';
+import router from './router';
 //vue router e instalojme me npm install vue-router pastaj e thirrim ne main.js me import VueRouter from 'vue-router'
 
 import store from "./store";
@@ -105,11 +105,6 @@ Vue.mixin({
 //     store.dispatch("fetchUser", user);
 // });
 
-Vue.use(VueRouter);
-const router = new VueRouter({
-    mode: 'history',
-    routes
-});
 
 new Vue({
     el: '#app',

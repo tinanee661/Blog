@@ -15,7 +15,7 @@
 </template>
 <script>
 import firebase from '../../Firebase'
-//import router from '../../routes'
+import router from '@/router'
 
 export default{
     /*eslint-disable */
@@ -43,7 +43,7 @@ export default{
     },
     methods:{
         details(user){
-            this.$router.push({name:'ShowUsers', params:{id:user.key}})
+            router.push({name:'ShowUsers', params:{id:user.key}})
         }
     }
 }

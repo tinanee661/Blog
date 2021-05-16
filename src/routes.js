@@ -1,4 +1,4 @@
-import Admin from './components/admin/Admin';
+/*import Admin from './components/admin/Admin';
 import AddPost from './components/admin/posts/AddPost';
 import EditPost from './components/admin/posts/EditPost';
 import RemovePost from './components/admin/posts/RemovePost';
@@ -53,3 +53,4 @@ export const routes = [
     {path:'/users/edit-user/:id',name:'EditUser', component: EditUser},
     {path:'/users/users-list', name:'UsersList', component:UsersList},
 ]
+*/

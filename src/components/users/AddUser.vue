@@ -43,7 +43,7 @@
 /*eslint-disable */
 
 import firebase from '../../Firebase'
-import router from '../../routes'
+import router from '@/router'
 
 export default {
   name: 'AddUser',
@@ -61,7 +61,7 @@ export default {
         this.user.name = ''
         this.user.description = ''
         this.user.email = ''
-        this.$router.push({
+       router.push({
           name: 'UsersList'
         })
       })

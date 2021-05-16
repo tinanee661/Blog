@@ -28,7 +28,7 @@
 /*eslint-disable */
 
 import firebase from '../../Firebase'
-import router from '../../routes'
+import router from '@/router'
 
 export default {
   name: 'Showuser',
@@ -40,7 +40,7 @@ export default {
   },
 //created perdoret per me ekzekutu automatikisht kodin ose queryn ne momentin qe komponenta bohet render!
 created () {
-    const ref = firebase.firestore().collection('users').doc(this.$route.params.id);
+    const ref = firebase.firestore().collection('users').doc(route.params.id);
     ref.get().then((doc) => {
       if (doc.exists) {
         this.key = doc.id;
@@ -52,14 +52,14 @@ created () {
   },
   methods: {
     edituser (id) {
-      this.$router.push({
+     router.push({
         name: 'EditUser',
         params: { id: id }
       })
     },
     deleteuser (id) {
       firebase.firestore().collection('users').doc(id).delete().then(() => {
-        this.$router.push({
+       router.push({
           name: 'UsersList'
         })
       }).catch((error) => {
