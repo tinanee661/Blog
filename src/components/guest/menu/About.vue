@@ -27,6 +27,8 @@
                     <div class="founders">
                         <img id="founder" src="@/components/guest/img/mu.jpg" alt="founder1">
                         <img id="founder" src="@/components/guest/img/mu2.jpg" alt="founder2">
+                        <img id="founder" src="@/components/guest/img/mu2.jpg" alt="founder2">
+                        <img id="founder" src="@/components/guest/img/mu2.jpg" alt="founder2">
                     </div>
                 </div>
             </div>

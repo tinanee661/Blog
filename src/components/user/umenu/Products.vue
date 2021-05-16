@@ -6,7 +6,7 @@
 
         <div class="container">
             <div class="title">
-                <h3> Want to shop the products we use? Click the category you are interested in</h3> 
+                <h3> Want to shop the products I use? Click the category you are interested in</h3> 
                 
             </div>
 
