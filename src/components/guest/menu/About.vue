@@ -17,6 +17,9 @@
                         non veritatis omnis aliquid labore ab! Quas accusantium odio ipsam eius facilis tenetur maxime
                         assumenda
                         laborum ducimus laboriosam odit ratione quisquam quam debitis, porro inventore voluptatem magni
+                        non veritatis omnis aliquid labore ab! Quas accusantium odio ipsam eius facilis tenetur maxime
+                        assumenda
+                        laborum ducimus laboriosam odit ratione quisquam quam debitis, porro inventore voluptatem magni
                         </p>
 
                     <h6> FOUNDERS </h6>
