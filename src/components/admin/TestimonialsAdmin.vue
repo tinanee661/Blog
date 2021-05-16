@@ -26,6 +26,7 @@
 <style lang="css" scoped>
 .main-container{
     height:100vh;
+    background-color: whitesmoke;
 }
 body {
     margin: 0;
