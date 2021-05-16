@@ -2,7 +2,7 @@
        <div class="main-container">
              <div class="container">
             <div class="title">
-                <h1> Skin Care</h1>
+                <h1> Skincare</h1>
 
             </div>
         </div>
@@ -44,7 +44,7 @@
                             </div>
                         </a>
                 </div>
-                    <button onclick="" id="sbutton" type="button">Makeup Products</button>
+                   
                 </div>        
    
    </div>

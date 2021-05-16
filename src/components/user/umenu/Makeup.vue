@@ -73,7 +73,8 @@
                             </div>
                         </a>
                 </div>
-                    <button onclick="" id="sbutton" type="button">Skincare Products</button>
+                   
+
                 </div>        
               </div>
               </div>
