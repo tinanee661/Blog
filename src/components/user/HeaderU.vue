@@ -25,7 +25,7 @@
                 <form action="displaysearch.php" method="POST" id="form">
                 <input type="text" id="search" placeholder=" Search..." name="search" style="border-radius:15px; ">
                 <div id='button'>
-                <button name="submit" id="searchbttn" style="background-color:transparent; border:none; margin:0px 30px;"><img src='../pictures/search.png' /></button>
+                <button name="submit" id="searchbttn" style="background-color:transparent; border:none; margin:0px 30px;"><img src='' /></button>
                 </div>
             </form>
             </div>
@@ -35,9 +35,10 @@
             <div class="logo-container"> 
             <img src="" alt="logo.png" />
             </div>
-            <div class="logout"> <button class="logOut" onclick="">Log Out</button></div>
+            <div class="logout"> <button class="logOut" onclick="">Log Outt</button></div>
            
         </div>
     
+    </div>
     </div>
 </template>

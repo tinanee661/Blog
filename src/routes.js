@@ -13,6 +13,13 @@ import Makeup from './components/user/umenu/Makeup';
 import Testimonials from './components/user/umenu/Testimonials';
 import Contactu from './components/user/umenu/Contactu';
 import Settings from './components/admin/Settings';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
+import AddUser from './components/users/AddUser.vue'
+import EditUser from './components/users/EditUser.vue'
+import ShowUsers from './components/users/ShowUsers.vue'
+import UsersList from './components/users/UsersList.vue'
+
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 
@@ -33,4 +40,10 @@ export const routes = [
     { path: '/user/umenu/makeup', name: 'makeup', component: Makeup },
     { path: '/user/umenu/testimonials', name: 'testimonials', component: Testimonials },
     { path: '/user/umenu/contactu', name: 'contactu', component: Contactu },
+    { path: '/auth/login', name: 'login', component: Login },
+    { path: '/auth/register', name: 'register', component: Register },
+    {path:'/users/show-user/:id',name:'ShowUsers', component: ShowUsers},
+    {path:'/users/add-user',name:'AddUser', component: AddUser},
+    {path:'/users/edit-user/:id',name:'EditUser', component: EditUser},
+    {path:'/users/users-list', name:'UsersList', component:UsersList},
 ]
