@@ -80,4 +80,39 @@ export default {
     }
   }
 };
+
+
+/* eslint-disable
+import firebase from "firebase";
+
+export default {
+  data() {
+    return {
+      form: {
+        name: "",
+        email: "",
+        password: ""
+      },
+      error: null
+    };
+  },
+  methods: {
+    submit() {
+      firebase
+        .auth()
+        .createUserWithEmailAndPassword(this.form.email, this.form.password)
+        .then(data => {
+          data.user
+            .updateProfile({
+              displayName: this.form.name
+            })
+            .then(() => {});
+        })
+        .catch(err => {
+          this.error = err.message;
+        });
+    }
+  }
+}; */
+
 </script>
