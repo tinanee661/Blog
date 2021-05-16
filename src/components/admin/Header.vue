@@ -19,7 +19,7 @@
                             </router-link>
                         </li>
                         <li class="nav-item" id="navadmin">
-                            <router-link class="nav-link" to="/admin/TestimonialsAdmin" >
+                            <router-link class="nav-link" to="/" >
                             <a>Testimonials</a>
                             </router-link>
                         </li>
