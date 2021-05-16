@@ -1,7 +1,6 @@
 import Admin from './components/admin/Admin';
 import AddPost from './components/admin/posts/AddPost';
 import EditPost from './components/admin/posts/EditPost';
-import RemovePost from './components/admin/posts/RemovePost';
 import About from './components/guest/menu/About';
 import Contact from './components/guest/menu/Contact';
 import Reviews from './components/guest/menu/Reviews';
@@ -19,6 +18,7 @@ import AddUser from './components/users/AddUser.vue'
 import EditUser from './components/users/EditUser.vue'
 import ShowUsers from './components/users/ShowUsers.vue'
 import UsersList from './components/users/UsersList.vue'
+import TestimonialsAdmin from './components/admin/TestimonialsAdmin';
 
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
@@ -29,7 +29,7 @@ export const routes = [
     { path: '/admin/settings/', name: 'settings', component: Settings },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
-    { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
+    { path: '/admin/TestimonialsAdmin/', name: 'TestimonialsAdmin', component: TestimonialsAdmin },
     { path: '/guest/menu/about', name: 'about', component: About },
     { path: '/guest/menu/contact', name: 'contact', component: Contact },
     { path: '/guest/menu/reviews', name: 'reviews', component: Reviews },
