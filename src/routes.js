@@ -15,10 +15,13 @@ import Contactu from './components/user/umenu/Contactu';
 import Settings from './components/admin/Settings';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
-import AddUser from './components/users/AddUser.vue'
-import EditUser from './components/users/EditUser.vue'
-import ShowUsers from './components/users/ShowUsers.vue'
-import UsersList from './components/users/UsersList.vue'
+import AddUser from './components/users/AddUser.vue';
+import EditUser from './components/users/EditUser.vue';
+import ShowUsers from './components/users/ShowUsers.vue';
+import UsersList from './components/users/UsersList.vue';
+import TestimonialsAdmin from './components/admin/TestimonialsAdmin';
+//import Messages from './components/admin/Messages'
+//import User from './components/admin/User'
 
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
@@ -26,6 +29,9 @@ import UsersList from './components/users/UsersList.vue'
 
 export const routes = [
     { path: '/admin', name: 'admin', component: Admin },
+    { path: '/admin/testimonials/', name: 'testimonialsadmin', component: TestimonialsAdmin },
+    //{ path: '/admin/messages/', name: 'messages', component: Messages },
+    //{ path: '/admin/user/', name: 'user', component: User },
     { path: '/admin/settings/', name: 'settings', component: Settings },
     { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
     { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
