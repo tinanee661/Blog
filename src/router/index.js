@@ -1,6 +1,9 @@
 import Admin from '@/components/admin/Admin';
 import AddPost from '@/components/admin/posts/AddPost';
 import EditPost from '@/components/admin/posts/EditPost';
+import TestimonialsAdmin from '@/components/admin/TestimonialsAdmin';
+import Messages from '@/components/admin/Messages';
+import User from '@/components/admin/User';
 import RemovePost from '@/components/admin/posts/RemovePost';
 import About from '@/components/guest/menu/About';
 import Contact from '@/components/guest/menu/Contact';
@@ -20,17 +23,21 @@ import EditUser from '@/components/users/EditUser.vue'
 import ShowUsers from '@/components/users/ShowUsers.vue'
 import UsersList from '@/components/users/UsersList.vue'
 import VueRouter from 'vue-router';
-import firebase from  '@/Firebase.js';
-import router from './index'; 
+import firebase from '@/Firebase.js';
+import router from './index';
 
 //importojme gjithe ato komponenta qe do i regjistrojme si routes
 
 export default new VueRouter({
-    routes :[
+    mode: 'history',
+    routes: [
         { path: '/admin', name: 'admin', component: Admin },
         { path: '/admin/settings/', name: 'settings', component: Settings },
         { path: '/admin/posts/addpost', name: 'addpost', component: AddPost },
         { path: '/admin/posts/edit/:id', name: 'editpost', component: EditPost },
+        { path: '/admin/testimonials/', name: 'testimonialsadmin', component: TestimonialsAdmin },
+        { path: '/admin/messages/', name: 'messages', component: Messages },
+        { path: '/admin/user/', name: 'user', component: User },
         { path: '/admin/posts/removepost', name: 'removepost', component: RemovePost },
         { path: '/guest/menu/about', name: 'about', component: About },
         { path: '/guest/menu/contact', name: 'contact', component: Contact },
@@ -44,13 +51,16 @@ export default new VueRouter({
         { path: '/user/umenu/contactu', name: 'contactu', component: Contactu },
         { path: '/auth/login', name: 'login', component: Login },
         { path: '/auth/register', name: 'register', component: Register },
-        {path:'/users/show-user/:id',name:'ShowUsers', component: ShowUsers},
-        {path:'/users/add-user',name:'AddUser', component: AddUser},
-        {path:'/users/edit-user/:id',name:'EditUser', component: EditUser},
-        {path:'/users/users-list', name:'UsersList', component:UsersList,
-        meta:{
-            requiresAuth:true
-        }
+        { path: '/users/show-user/:id', name: 'ShowUsers', component: ShowUsers },
+        { path: '/users/add-user', name: 'AddUser', component: AddUser },
+        { path: '/users/edit-user/:id', name: 'EditUser', component: EditUser },
+        {
+            path: '/users/users-list',
+            name: 'UsersList',
+            component: UsersList,
+            meta: {
+                requiresAuth: true
+            }
         },
     ]
 
@@ -58,11 +68,11 @@ export default new VueRouter({
 
 })
 
-router.beforeEach(async (to, from, next ) => {
+router.beforeEach(async(to, from, next) => {
     const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-    if (requiresAuth && !await firebase.getCurrentUser()){
+    if (requiresAuth && !await firebase.getCurrentUser()) {
         next('login');
-    }else{
+    } else {
         next();
     }
 });

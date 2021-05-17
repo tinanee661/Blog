@@ -12,7 +12,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
+    // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
 import VueSweetalert2 from 'vue-sweetalert2';
@@ -107,6 +107,7 @@ Vue.mixin({
 Vue.use(VueRouter);
 
 
+Vue.use(VueRouter);
 
 new Vue({
     el: '#app',
