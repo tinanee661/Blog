@@ -28,7 +28,7 @@
         data(){
             return{
                 text:'Hello World',
-                isAdmin: true
+                isAdmin: false
             }
         },
         filters:{
@@ -43,7 +43,8 @@
             appFooterAdmin:FooterAdmin,
             appHeaderU:HeaderU,
             appFooterU:FooterU,
-        },directives:{
+        },
+        directives:{
             'local-hightlight':{
                 bind(el, binding, vnode){
                 el.style.color='blue';

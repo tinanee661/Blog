@@ -104,6 +104,8 @@ Vue.mixin({
 // firebase.auth().onAuthStateChanged(user => {
 //     store.dispatch("fetchUser", user);
 // });
+Vue.use(VueRouter);
+
 
 
 new Vue({
